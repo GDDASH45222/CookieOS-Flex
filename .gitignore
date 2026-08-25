@@ -1,3 +1,51 @@
+# Cookie OS Flex
+# ================================
+
+# Build output
 build/*
+!build/.gitkeep
+
+# Root filesystem
 rootfs/*
+!rootfs/.gitkeep
+
+# ISO images
 *.iso
+
+# Object files
+*.o
+*.obj
+
+# Binaries
+*.bin
+*.elf
+*.exe
+
+# Linker / symbol output
+*.map
+*.sym
+*.lst
+
+# Dependency files
+*.d
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
